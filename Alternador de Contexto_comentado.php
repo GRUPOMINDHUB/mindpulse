@@ -17,7 +17,7 @@
  * LINHAS 113-146: Bloco catch: Tratamento de erros com respostas adequadas
  *   LINHAS 115-128: Tratamento de erros para requisições GET
  *   LINHAS 129-144: Tratamento de erros para requisições AJAX/POST
- * LINHA 147:      Fechamento da tag PHP
+ * LINHA 144:      Fechamento da tag PHP
  * ----------------------------------------------------------------------------
  * FLUXO: Recebe company_id → Valida permissão → Atualiza sessão → Retorna resposta
  * ============================================================================
