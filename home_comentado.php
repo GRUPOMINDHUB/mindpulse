@@ -1,4 +1,19 @@
 <?php
+/* ============================================================================
+ * SUMÁRIO: Página de Dashboard / Home pós-login do sistema Mindhub
+ * ----------------------------------------------------------------------------
+ * DESCRIÇÃO: Dashboard principal exibido após login, com boas-vindas personalizadas,
+ * informações do perfil do usuário e atalhos para funcionalidades do sistema.
+ * ----------------------------------------------------------------------------
+ * LINHAS 1-17:    Cabeçalho de documentação e sumário
+ * LINHAS 18-23:   Inicialização PHP e carregamento do layout inicial
+ * LINHAS 24-54:   Card de boas-vindas com saudação personalizada e status da sessão
+ * LINHAS 55-196:  Layout em grid com duas colunas principais
+ *   LINHAS 57-130:  Coluna esquerda (4/12) - Perfil do usuário
+ *   LINHAS 131-195: Coluna direita (8/12) - Acesso rápido com links condicionais
+ * LINHAS 197-202: Fechamento do layout com rodapé e scripts
+ * ----------------------------------------------------------------------------
+<?php
 // O QUE É: Tag de abertura do PHP
 // POR QUE ESTÁ ALI: Marca o início do código PHP no arquivo
 
